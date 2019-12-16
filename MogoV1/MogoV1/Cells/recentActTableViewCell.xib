@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Text-Light.otf">
+            <string>SFProText-Light</string>
+        </array>
+        <array key="SF-Pro-Text-Medium.otf">
+            <string>SFProText-Medium</string>
+        </array>
+        <array key="SF-Pro-Text-Regular.otf">
+            <string>SFProText-Regular</string>
+        </array>
+        <array key="SF-Pro-Text-Semibold.otf">
+            <string>SFProText-Semibold</string>
+        </array>
+        <array key="SF-Pro-Text-Thin.otf">
+            <string>SFProText-Thin</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="recentActTableViewCell" customModule="MogoV1" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="112"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="111.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <userGuides>
+                    <userLayoutGuide location="97" affinity="minY"/>
+                </userGuides>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="7MV-x7-bJx">
+                        <rect key="frame" x="24" y="14" width="121" height="84"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="84" id="Qza-mE-eYs"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="121" id="cRK-VW-qJa"/>
+                            <constraint firstAttribute="width" constant="121" id="xbV-s3-Ola"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="84" id="xka-iq-CTW"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="􀎫" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g63-pK-LES">
+                        <rect key="frame" x="156" y="14" width="19" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="brx-92-Mv7"/>
+                            <constraint firstAttribute="width" constant="19" id="hYm-bx-XT6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vancouver Film School" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0TL-iU-f2B">
+                        <rect key="frame" x="181" y="14" width="209" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="XoR-5T-1iw"/>
+                            <constraint firstAttribute="width" constant="209" id="mYD-vc-UHW"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SFProText-Semibold" family="SF Pro Text" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1455 Homer St" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XTc-7E-2Zs">
+                        <rect key="frame" x="156" y="36" width="234" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="234" id="PRc-oC-m3A"/>
+                            <constraint firstAttribute="height" constant="18" id="QPn-Bf-S06"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SFProText-Thin" family="SF Pro Text" pointSize="10"/>
+                        <color key="textColor" red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scene name / Description Scene name / Description" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FuP-fM-nRt">
+                        <rect key="frame" x="156" y="51" width="156" height="29"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="156" id="ddP-ll-V3e"/>
+                            <constraint firstAttribute="height" constant="29" id="eKj-vG-fTJ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SFProText-Medium" family="SF Pro Text" pointSize="12"/>
+                        <color key="textColor" red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="􀎶" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="enX-Dr-UoS">
+                        <rect key="frame" x="156" y="83" width="16" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="16" id="VSn-CP-phD"/>
+                            <constraint firstAttribute="height" constant="18" id="amf-7c-eYh"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SFProText-Light" family="SF Pro Text" pointSize="11"/>
+                        <color key="textColor" red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Movie Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2r2-Aj-sgf">
+                        <rect key="frame" x="174" y="83" width="133" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="133" id="2ts-4q-iz2"/>
+                            <constraint firstAttribute="height" constant="18" id="AsS-Uu-Abc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SFProText-Light" family="SF Pro Text" pointSize="11"/>
+                        <color key="textColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F1n-I5-YAm">
+                        <rect key="frame" x="312" y="58" width="36" height="36"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="36" id="csj-8j-V04"/>
+                            <constraint firstAttribute="width" constant="36" id="nTh-fw-N6D"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="30"/>
+                        <state key="normal" title="􀁢">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <connections>
+                            <action selector="SceneAccept:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="gI4-PI-MAj"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fy7-L1-tIN">
+                        <rect key="frame" x="354" y="58" width="36" height="36"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="36" id="6Nk-8s-ikn"/>
+                            <constraint firstAttribute="width" constant="36" id="kER-lz-0aY"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="30"/>
+                        <state key="normal" title="􀀲">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <connections>
+                            <action selector="SceneAccept:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="6le-oc-8Bk"/>
+                            <action selector="SceneDecline:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="W8O-h9-m60"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="XTc-7E-2Zs" firstAttribute="leading" secondItem="7MV-x7-bJx" secondAttribute="trailing" constant="11" id="4ts-Iu-LOU"/>
+                    <constraint firstItem="fy7-L1-tIN" firstAttribute="leading" secondItem="XTc-7E-2Zs" secondAttribute="trailing" constant="-36" id="7o8-2f-Vbh"/>
+                    <constraint firstItem="g63-pK-LES" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="14" id="9fg-mI-U0z"/>
+                    <constraint firstItem="0TL-iU-f2B" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="14" id="A4C-PF-MOC"/>
+                    <constraint firstItem="F1n-I5-YAm" firstAttribute="leading" secondItem="FuP-fM-nRt" secondAttribute="trailing" id="A8X-2x-ZKp"/>
+                    <constraint firstItem="enX-Dr-UoS" firstAttribute="leading" secondItem="7MV-x7-bJx" secondAttribute="trailing" constant="11" id="C9d-M2-2Ys"/>
+                    <constraint firstItem="enX-Dr-UoS" firstAttribute="top" secondItem="FuP-fM-nRt" secondAttribute="bottom" constant="3" id="D36-S3-wNZ"/>
+                    <constraint firstItem="2r2-Aj-sgf" firstAttribute="leading" secondItem="enX-Dr-UoS" secondAttribute="trailing" constant="2" id="DGy-jh-lwX"/>
+                    <constraint firstItem="F1n-I5-YAm" firstAttribute="top" secondItem="0TL-iU-f2B" secondAttribute="bottom" constant="22" id="NXd-wh-H0C"/>
+                    <constraint firstItem="0TL-iU-f2B" firstAttribute="leading" secondItem="g63-pK-LES" secondAttribute="trailing" constant="6" id="QHo-3d-tIB"/>
+                    <constraint firstItem="FuP-fM-nRt" firstAttribute="top" secondItem="XTc-7E-2Zs" secondAttribute="bottom" constant="-3" id="Y2W-hv-VOk"/>
+                    <constraint firstItem="XTc-7E-2Zs" firstAttribute="top" secondItem="g63-pK-LES" secondAttribute="bottom" id="a85-pD-jzS"/>
+                    <constraint firstItem="7MV-x7-bJx" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="14" id="b3G-Eq-5l9"/>
+                    <constraint firstItem="fy7-L1-tIN" firstAttribute="baseline" secondItem="F1n-I5-YAm" secondAttribute="baseline" id="bar-0K-dnC"/>
+                    <constraint firstItem="FuP-fM-nRt" firstAttribute="leading" secondItem="7MV-x7-bJx" secondAttribute="trailing" constant="11" id="bmG-Ri-c1S"/>
+                    <constraint firstItem="2r2-Aj-sgf" firstAttribute="top" secondItem="FuP-fM-nRt" secondAttribute="bottom" constant="3" id="phB-f8-eK1"/>
+                    <constraint firstItem="fy7-L1-tIN" firstAttribute="leading" secondItem="F1n-I5-YAm" secondAttribute="trailing" constant="6" id="pob-5l-7Mf"/>
+                    <constraint firstItem="g63-pK-LES" firstAttribute="leading" secondItem="7MV-x7-bJx" secondAttribute="trailing" constant="11" id="vNo-Yb-D7J"/>
+                    <constraint firstItem="7MV-x7-bJx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="24" id="xwA-1e-Sw9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.098039215686274508" green="0.098039215686274508" blue="0.098039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="SceneAddress" destination="XTc-7E-2Zs" id="PQF-aU-Vnm"/>
+                <outlet property="SceneDescription" destination="FuP-fM-nRt" id="aM0-Fk-jgk"/>
+                <outlet property="SceneMovie" destination="2r2-Aj-sgf" id="FNV-Da-m40"/>
+                <outlet property="ScenePlace" destination="0TL-iU-f2B" id="R6X-o5-iFu"/>
+                <outlet property="ScenePreview" destination="7MV-x7-bJx" id="WCW-6O-xLk"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="116.51785714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Rectangle" width="414" height="385"/>
+    </resources>
+</document>
